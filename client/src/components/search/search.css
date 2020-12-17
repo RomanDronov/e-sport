@@ -1,0 +1,9 @@
+.search{
+    display:flex;
+    align-items: center;
+    width: 60%;
+    min-width: 500px; 
+    min-height: 100px;
+    justify-content: center;
+
+}

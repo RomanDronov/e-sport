@@ -1,0 +1,40 @@
+{
+  "name": "ui",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dates": "^21.8.0",
+    "react-datetime-picker": "^3.0.4",
+    "react-dom": "^16.9.0",
+    "react-modern-calendar-datepicker": "^3.1.6",
+    "react-reveal": "^1.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.1.2",
+    "react-select": "^3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://server:8080",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.2",
+    "sass": "^1.23.7"
+  }
+}

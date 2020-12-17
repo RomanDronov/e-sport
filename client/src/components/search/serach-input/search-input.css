@@ -1,0 +1,127 @@
+.main-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+}
+.main-data-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.inputs {
+  background-color: white;
+  border-radius: 10px;
+}
+.main-data-input .player-name {
+  width: 40%;
+  transition: width 2s;
+  border-right: 2px solid #333333;
+  border-radius: 10px 0 0 10px;
+  box-sizing: border-box;
+  background-color: white;
+  box-sizing: border-box;
+}
+.main-data-input .player-name input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: #333333;
+  border-radius: 10px 0 0 10px;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+.main-data-input .player-region {
+  width: 40%;
+  transition: width 2s;
+  height: 200% !important;
+  box-sizing: border-box;
+}
+.player-region-select__control {
+  border: none !important;
+  height: 100% !important;
+  border-radius: 0 !important;
+  border-right: 2px solid #333333;
+  font-size: 1.5em !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+.search-button {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  font-weight: 700;
+  font-size: 1.5em;
+  min-height: 44px;
+  align-items: center;
+  line-height: 100%;
+  justify-content: center;
+  transition-duration: 0.2s;
+  background-color: #333333;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+.search-button:hover {
+  background-color: #dbdbdb;
+  opacity: 0.8;
+  color: #333333;
+  cursor: pointer;
+}
+.search-button a {
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.InputLine {
+  width: 70px;
+  position: relative;
+  height: 1px;
+  margin: 0 auto;
+
+  display: block;
+  margin: 0 auto;
+}
+.InputLine::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8b0000;
+  height: 2px;
+  display: block;
+  transform: rotateY(90deg);
+  transition: transform 0.28s ease;
+  will-change: transform;
+}
+.search-tabs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    cursor: pointer;
+}
+.search-tabs .name:hover ~ .InputLine::after {
+  transform: rotateY(0deg);
+}
+.search-tabs .name {
+  color: #333333;
+  font-size: 1.5em;
+  padding: 5%;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.search-tabs .name:hover {
+    color: red;
+  }
+  .search-tabs .name .title{
+      width: 100%;
+      border:1px solid transparent;
+      display: inline-block;
+  }

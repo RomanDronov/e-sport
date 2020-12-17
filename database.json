@@ -1,0 +1,1090 @@
+{
+    "requests": [
+        {
+            "request_type": "player_general_info_tab",
+            "input_data": {
+                "region": "ru",
+                "player_name": "desarter"
+            },
+            "request_time": "02.12.2020 17:38:00",
+            "data": {
+                "info": {
+                    "player_name": "desarter",
+                    "player_region": "ru",
+                    "player_pic": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/4075.png",
+                    "player_level": 274
+                },
+                "solo_league": {
+                    "tier": "GOLD",
+                    "rank": "I",
+                    "league_points": 37,
+                    "wins": 98,
+                    "losses": 86
+                },
+                "team_league": {
+                    "tier": "SILVER",
+                    "rank": "II",
+                    "league_points": 47,
+                    "wins": 37,
+                    "losses": 23
+                }
+            }
+        },
+        {
+            "request_type": "player_player_current_match_tab",
+            "input_data": {
+                "region": "ru",
+                "player_name": "desarter"
+            },
+            "request_time": "02.12.2020 17:39:42",
+            "data": {
+                "map": 11,
+                "gamemode": "CLASSIC",
+                "game_type": "MATCHED_GAME",
+                "participants": {
+                    "participant_1": {
+                        "participant_name": "Sylt",
+                        "participant_champion": "Varus",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/4660.png",
+                        "participant_bot": false
+                    },
+                    "participant_2": {
+                        "participant_name": "Ryoshi11",
+                        "participant_champion": "Pyke",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/666.png",
+                        "participant_bot": false
+                    },
+                    "participant_3": {
+                        "participant_name": "Аркавон",
+                        "participant_champion": "Mordekaiser",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/746.png",
+                        "participant_bot": false
+                    },
+                    "participant_4": {
+                        "participant_name": "Winterveil",
+                        "participant_champion": "Talon",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/1150.png",
+                        "participant_bot": false
+                    },
+                    "participant_5": {
+                        "participant_name": "Dra2kuLes6",
+                        "participant_champion": "Rammus",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/1212.png",
+                        "participant_bot": false
+                    },
+                    "participant_6": {
+                        "participant_name": "Вася Химдоспех",
+                        "participant_champion": "Lissandra",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/4545.png",
+                        "participant_bot": false
+                    },
+                    "participant_7": {
+                        "participant_name": "8th Hokage Zed",
+                        "participant_champion": "Shen",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/4555.png",
+                        "participant_bot": false
+                    },
+                    "participant_8": {
+                        "participant_name": "desarter",
+                        "participant_champion": "Tryndamere",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/4075.png",
+                        "participant_bot": false
+                    },
+                    "participant_9": {
+                        "participant_name": "ITG Joker",
+                        "participant_champion": "Jhin",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/4568.png",
+                        "participant_bot": false
+                    },
+                    "participant_10": {
+                        "participant_name": "lonely Shedar",
+                        "participant_champion": "Nami",
+                        "participant_icon": "http://ddragon.leagueoflegends.com/cdn/10.24.1/img/profileicon/4363.png",
+                        "participant_bot": false
+                    }
+                }
+            }
+        },
+        {
+            "request_type": "player_champions_tab",
+            "input_data": {
+                "region": "ru",
+                "player_name": "desarter"
+            },
+            "request_time": "02.12.2020 17:39:59",
+            "data": {
+                "Darius": {
+                    "champion_level": 7,
+                    "champion_points": 614136,
+                    "last_time_played": "02.12.2020 16:55:56",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Nasus": {
+                    "champion_level": 7,
+                    "champion_points": 171131,
+                    "last_time_played": "28.11.2020 22:40:58",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Tryndamere": {
+                    "champion_level": 7,
+                    "champion_points": 104825,
+                    "last_time_played": "01.12.2020 01:32:38",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Pyke": {
+                    "champion_level": 6,
+                    "champion_points": 73758,
+                    "last_time_played": "24.10.2020 20:40:00",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 1
+                },
+                "Pantheon": {
+                    "champion_level": 6,
+                    "champion_points": 58758,
+                    "last_time_played": "03.07.2020 16:04:47",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 1
+                },
+                "Chogath": {
+                    "champion_level": 6,
+                    "champion_points": 54160,
+                    "last_time_played": "30.09.2020 15:34:00",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "MasterYi": {
+                    "champion_level": 6,
+                    "champion_points": 44975,
+                    "last_time_played": "03.10.2020 21:59:52",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 2
+                },
+                "Aatrox": {
+                    "champion_level": 7,
+                    "champion_points": 42557,
+                    "last_time_played": "06.07.2020 21:59:14",
+                    "points_until_new_level": 0,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Teemo": {
+                    "champion_level": 6,
+                    "champion_points": 42056,
+                    "last_time_played": "06.10.2017 11:01:46",
+                    "points_until_new_level": 0,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Veigar": {
+                    "champion_level": 6,
+                    "champion_points": 40321,
+                    "last_time_played": "19.10.2020 15:44:02",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Warwick": {
+                    "champion_level": 6,
+                    "champion_points": 39598,
+                    "last_time_played": "07.11.2020 13:25:21",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 2
+                },
+                "Kled": {
+                    "champion_level": 6,
+                    "champion_points": 33738,
+                    "last_time_played": "29.11.2020 23:00:51",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 1
+                },
+                "Anivia": {
+                    "champion_level": 5,
+                    "champion_points": 32984,
+                    "last_time_played": "08.05.2020 12:52:05",
+                    "points_until_new_level": 0,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Jax": {
+                    "champion_level": 6,
+                    "champion_points": 31608,
+                    "last_time_played": "03.11.2020 16:55:24",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Sett": {
+                    "champion_level": 6,
+                    "champion_points": 28179,
+                    "last_time_played": "21.11.2020 13:12:34",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 1
+                },
+                "Kayn": {
+                    "champion_level": 5,
+                    "champion_points": 27296,
+                    "last_time_played": "06.10.2020 22:35:32",
+                    "points_until_new_level": 0,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Talon": {
+                    "champion_level": 5,
+                    "champion_points": 26441,
+                    "last_time_played": "21.07.2020 12:57:29",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Riven": {
+                    "champion_level": 5,
+                    "champion_points": 24954,
+                    "last_time_played": "28.11.2020 21:09:24",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Jinx": {
+                    "champion_level": 5,
+                    "champion_points": 22262,
+                    "last_time_played": "24.10.2020 18:35:13",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Quinn": {
+                    "champion_level": 5,
+                    "champion_points": 21789,
+                    "last_time_played": "23.11.2020 19:01:30",
+                    "points_until_new_level": 0,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Kayle": {
+                    "champion_level": 4,
+                    "champion_points": 20770,
+                    "last_time_played": "23.11.2020 16:50:29",
+                    "points_until_new_level": 830,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Udyr": {
+                    "champion_level": 4,
+                    "champion_points": 19269,
+                    "last_time_played": "20.10.2020 20:36:12",
+                    "points_until_new_level": 2331,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Blitzcrank": {
+                    "champion_level": 4,
+                    "champion_points": 18620,
+                    "last_time_played": "22.10.2020 10:36:26",
+                    "points_until_new_level": 2980,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Lux": {
+                    "champion_level": 4,
+                    "champion_points": 17988,
+                    "last_time_played": "22.07.2020 22:24:22",
+                    "points_until_new_level": 3612,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "MissFortune": {
+                    "champion_level": 4,
+                    "champion_points": 17951,
+                    "last_time_played": "14.05.2020 22:54:32",
+                    "points_until_new_level": 3649,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Mordekaiser": {
+                    "champion_level": 4,
+                    "champion_points": 17502,
+                    "last_time_played": "07.11.2020 14:24:22",
+                    "points_until_new_level": 4098,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Garen": {
+                    "champion_level": 4,
+                    "champion_points": 17387,
+                    "last_time_played": "27.10.2020 00:20:12",
+                    "points_until_new_level": 4213,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Renekton": {
+                    "champion_level": 4,
+                    "champion_points": 16153,
+                    "last_time_played": "20.11.2020 20:06:59",
+                    "points_until_new_level": 5447,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Sona": {
+                    "champion_level": 4,
+                    "champion_points": 15749,
+                    "last_time_played": "09.07.2020 20:21:42",
+                    "points_until_new_level": 5851,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Leblanc": {
+                    "champion_level": 4,
+                    "champion_points": 14400,
+                    "last_time_played": "19.08.2020 02:01:56",
+                    "points_until_new_level": 7200,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Khazix": {
+                    "champion_level": 4,
+                    "champion_points": 14330,
+                    "last_time_played": "23.11.2020 16:19:35",
+                    "points_until_new_level": 7270,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Malphite": {
+                    "champion_level": 4,
+                    "champion_points": 12779,
+                    "last_time_played": "28.11.2020 23:19:35",
+                    "points_until_new_level": 8821,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Fiddlesticks": {
+                    "champion_level": 3,
+                    "champion_points": 12347,
+                    "last_time_played": "14.05.2020 15:56:41",
+                    "points_until_new_level": 253,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Ornn": {
+                    "champion_level": 3,
+                    "champion_points": 12250,
+                    "last_time_played": "01.11.2020 14:19:17",
+                    "points_until_new_level": 350,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Ashe": {
+                    "champion_level": 3,
+                    "champion_points": 9821,
+                    "last_time_played": "12.12.2019 23:22:25",
+                    "points_until_new_level": 2779,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "KogMaw": {
+                    "champion_level": 3,
+                    "champion_points": 9738,
+                    "last_time_played": "23.02.2020 22:22:25",
+                    "points_until_new_level": 2862,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Rengar": {
+                    "champion_level": 3,
+                    "champion_points": 8680,
+                    "last_time_played": "08.08.2020 23:55:49",
+                    "points_until_new_level": 3920,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Brand": {
+                    "champion_level": 3,
+                    "champion_points": 8626,
+                    "last_time_played": "19.05.2020 12:23:15",
+                    "points_until_new_level": 3974,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Illaoi": {
+                    "champion_level": 3,
+                    "champion_points": 8620,
+                    "last_time_played": "09.06.2018 19:03:07",
+                    "points_until_new_level": 3980,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Irelia": {
+                    "champion_level": 3,
+                    "champion_points": 7547,
+                    "last_time_played": "13.07.2020 19:40:49",
+                    "points_until_new_level": 5053,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Jhin": {
+                    "champion_level": 3,
+                    "champion_points": 7524,
+                    "last_time_played": "27.07.2020 23:54:58",
+                    "points_until_new_level": 5076,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Akali": {
+                    "champion_level": 3,
+                    "champion_points": 7276,
+                    "last_time_played": "10.03.2020 20:58:59",
+                    "points_until_new_level": 5324,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "MonkeyKing": {
+                    "champion_level": 3,
+                    "champion_points": 7237,
+                    "last_time_played": "21.10.2020 23:16:34",
+                    "points_until_new_level": 5363,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Malzahar": {
+                    "champion_level": 3,
+                    "champion_points": 7126,
+                    "last_time_played": "08.02.2020 13:10:53",
+                    "points_until_new_level": 5474,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Olaf": {
+                    "champion_level": 3,
+                    "champion_points": 7062,
+                    "last_time_played": "24.10.2020 21:52:33",
+                    "points_until_new_level": 5538,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "RekSai": {
+                    "champion_level": 3,
+                    "champion_points": 6747,
+                    "last_time_played": "31.08.2018 22:58:07",
+                    "points_until_new_level": 5853,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Nautilus": {
+                    "champion_level": 3,
+                    "champion_points": 6731,
+                    "last_time_played": "09.08.2017 23:29:36",
+                    "points_until_new_level": 5869,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Vi": {
+                    "champion_level": 3,
+                    "champion_points": 6282,
+                    "last_time_played": "17.06.2018 22:52:29",
+                    "points_until_new_level": 6318,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Karthus": {
+                    "champion_level": 3,
+                    "champion_points": 6217,
+                    "last_time_played": "21.08.2017 19:58:41",
+                    "points_until_new_level": 6383,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Ziggs": {
+                    "champion_level": 2,
+                    "champion_points": 5567,
+                    "last_time_played": "19.06.2018 19:46:45",
+                    "points_until_new_level": 433,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "XinZhao": {
+                    "champion_level": 2,
+                    "champion_points": 5561,
+                    "last_time_played": "21.10.2019 16:19:00",
+                    "points_until_new_level": 439,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Thresh": {
+                    "champion_level": 2,
+                    "champion_points": 5538,
+                    "last_time_played": "07.07.2017 00:32:30",
+                    "points_until_new_level": 462,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Viktor": {
+                    "champion_level": 2,
+                    "champion_points": 5473,
+                    "last_time_played": "22.06.2019 23:02:45",
+                    "points_until_new_level": 527,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Elise": {
+                    "champion_level": 2,
+                    "champion_points": 5228,
+                    "last_time_played": "20.03.2020 20:22:24",
+                    "points_until_new_level": 772,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Vayne": {
+                    "champion_level": 2,
+                    "champion_points": 4960,
+                    "last_time_played": "18.06.2018 14:42:38",
+                    "points_until_new_level": 1040,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Tristana": {
+                    "champion_level": 2,
+                    "champion_points": 4850,
+                    "last_time_played": "22.07.2020 20:36:49",
+                    "points_until_new_level": 1150,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Swain": {
+                    "champion_level": 2,
+                    "champion_points": 4825,
+                    "last_time_played": "27.03.2020 17:40:32",
+                    "points_until_new_level": 1175,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Nami": {
+                    "champion_level": 2,
+                    "champion_points": 4434,
+                    "last_time_played": "04.11.2019 01:03:42",
+                    "points_until_new_level": 1566,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Shyvana": {
+                    "champion_level": 2,
+                    "champion_points": 4271,
+                    "last_time_played": "20.10.2020 16:42:08",
+                    "points_until_new_level": 1729,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Vladimir": {
+                    "champion_level": 2,
+                    "champion_points": 4221,
+                    "last_time_played": "30.11.2019 16:42:20",
+                    "points_until_new_level": 1779,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Janna": {
+                    "champion_level": 2,
+                    "champion_points": 4178,
+                    "last_time_played": "18.01.2017 22:22:36",
+                    "points_until_new_level": 1822,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Urgot": {
+                    "champion_level": 2,
+                    "champion_points": 4093,
+                    "last_time_played": "28.10.2020 20:24:11",
+                    "points_until_new_level": 1907,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Katarina": {
+                    "champion_level": 2,
+                    "champion_points": 4029,
+                    "last_time_played": "13.08.2020 14:05:49",
+                    "points_until_new_level": 1971,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Heimerdinger": {
+                    "champion_level": 2,
+                    "champion_points": 4001,
+                    "last_time_played": "23.07.2017 22:48:24",
+                    "points_until_new_level": 1999,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Morgana": {
+                    "champion_level": 2,
+                    "champion_points": 3954,
+                    "last_time_played": "27.03.2020 19:16:24",
+                    "points_until_new_level": 2046,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Volibear": {
+                    "champion_level": 2,
+                    "champion_points": 3578,
+                    "last_time_played": "10.10.2020 14:33:35",
+                    "points_until_new_level": 2422,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Rakan": {
+                    "champion_level": 2,
+                    "champion_points": 3542,
+                    "last_time_played": "13.04.2018 23:05:49",
+                    "points_until_new_level": 2458,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Caitlyn": {
+                    "champion_level": 2,
+                    "champion_points": 3473,
+                    "last_time_played": "16.07.2017 02:57:37",
+                    "points_until_new_level": 2527,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Yorick": {
+                    "champion_level": 2,
+                    "champion_points": 2987,
+                    "last_time_played": "16.12.2019 21:50:47",
+                    "points_until_new_level": 3013,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Velkoz": {
+                    "champion_level": 2,
+                    "champion_points": 2941,
+                    "last_time_played": "24.05.2017 23:01:10",
+                    "points_until_new_level": 3059,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Sivir": {
+                    "champion_level": 2,
+                    "champion_points": 2887,
+                    "last_time_played": "17.01.2017 00:05:56",
+                    "points_until_new_level": 3113,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "DrMundo": {
+                    "champion_level": 2,
+                    "champion_points": 2667,
+                    "last_time_played": "15.11.2016 23:55:57",
+                    "points_until_new_level": 3333,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Maokai": {
+                    "champion_level": 2,
+                    "champion_points": 2521,
+                    "last_time_played": "03.06.2017 18:25:12",
+                    "points_until_new_level": 3479,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Xayah": {
+                    "champion_level": 2,
+                    "champion_points": 2384,
+                    "last_time_played": "17.12.2018 20:59:59",
+                    "points_until_new_level": 3616,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Sylas": {
+                    "champion_level": 2,
+                    "champion_points": 2359,
+                    "last_time_played": "13.08.2020 13:19:40",
+                    "points_until_new_level": 3641,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Fiora": {
+                    "champion_level": 2,
+                    "champion_points": 2203,
+                    "last_time_played": "04.07.2020 16:07:56",
+                    "points_until_new_level": 3797,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Taric": {
+                    "champion_level": 2,
+                    "champion_points": 2140,
+                    "last_time_played": "26.03.2020 22:34:57",
+                    "points_until_new_level": 3860,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Karma": {
+                    "champion_level": 2,
+                    "champion_points": 2018,
+                    "last_time_played": "08.05.2017 21:34:01",
+                    "points_until_new_level": 3982,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Soraka": {
+                    "champion_level": 2,
+                    "champion_points": 1988,
+                    "last_time_played": "24.05.2018 14:07:26",
+                    "points_until_new_level": 4012,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Gangplank": {
+                    "champion_level": 2,
+                    "champion_points": 1829,
+                    "last_time_played": "14.02.2017 22:19:10",
+                    "points_until_new_level": 4171,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Singed": {
+                    "champion_level": 1,
+                    "champion_points": 1671,
+                    "last_time_played": "20.12.2016 01:39:40",
+                    "points_until_new_level": 129,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Lucian": {
+                    "champion_level": 1,
+                    "champion_points": 1639,
+                    "last_time_played": "11.11.2019 21:33:40",
+                    "points_until_new_level": 161,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Bard": {
+                    "champion_level": 1,
+                    "champion_points": 1565,
+                    "last_time_played": "28.11.2016 21:02:33",
+                    "points_until_new_level": 235,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Leona": {
+                    "champion_level": 1,
+                    "champion_points": 1562,
+                    "last_time_played": "27.03.2020 16:37:24",
+                    "points_until_new_level": 238,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Jayce": {
+                    "champion_level": 1,
+                    "champion_points": 1545,
+                    "last_time_played": "21.12.2017 20:54:53",
+                    "points_until_new_level": 255,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Ryze": {
+                    "champion_level": 1,
+                    "champion_points": 1490,
+                    "last_time_played": "18.01.2017 21:56:13",
+                    "points_until_new_level": 310,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Graves": {
+                    "champion_level": 1,
+                    "champion_points": 1449,
+                    "last_time_played": "13.12.2016 00:35:03",
+                    "points_until_new_level": 351,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Varus": {
+                    "champion_level": 1,
+                    "champion_points": 1441,
+                    "last_time_played": "06.09.2015 22:54:04",
+                    "points_until_new_level": 359,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Nocturne": {
+                    "champion_level": 1,
+                    "champion_points": 1348,
+                    "last_time_played": "13.08.2020 13:41:43",
+                    "points_until_new_level": 452,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Zilean": {
+                    "champion_level": 1,
+                    "champion_points": 1204,
+                    "last_time_played": "09.08.2017 22:40:19",
+                    "points_until_new_level": 596,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Diana": {
+                    "champion_level": 1,
+                    "champion_points": 1182,
+                    "last_time_played": "06.12.2018 18:17:55",
+                    "points_until_new_level": 618,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Sejuani": {
+                    "champion_level": 1,
+                    "champion_points": 1168,
+                    "last_time_played": "03.02.2017 01:14:25",
+                    "points_until_new_level": 632,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Zoe": {
+                    "champion_level": 1,
+                    "champion_points": 1166,
+                    "last_time_played": "09.07.2020 00:41:42",
+                    "points_until_new_level": 634,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Kennen": {
+                    "champion_level": 1,
+                    "champion_points": 946,
+                    "last_time_played": "05.02.2019 19:13:37",
+                    "points_until_new_level": 854,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Annie": {
+                    "champion_level": 1,
+                    "champion_points": 945,
+                    "last_time_played": "10.05.2017 00:24:09",
+                    "points_until_new_level": 855,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Nunu": {
+                    "champion_level": 1,
+                    "champion_points": 862,
+                    "last_time_played": "07.01.2019 23:17:31",
+                    "points_until_new_level": 938,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Alistar": {
+                    "champion_level": 1,
+                    "champion_points": 811,
+                    "last_time_played": "24.01.2017 23:53:12",
+                    "points_until_new_level": 989,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Yuumi": {
+                    "champion_level": 1,
+                    "champion_points": 752,
+                    "last_time_played": "27.07.2020 22:18:11",
+                    "points_until_new_level": 1048,
+                    "chest_granted": true,
+                    "tokens_earned": 0
+                },
+                "Galio": {
+                    "champion_level": 1,
+                    "champion_points": 747,
+                    "last_time_played": "27.03.2020 18:06:26",
+                    "points_until_new_level": 1053,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Twitch": {
+                    "champion_level": 1,
+                    "champion_points": 710,
+                    "last_time_played": "21.10.2019 17:04:12",
+                    "points_until_new_level": 1090,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Nidalee": {
+                    "champion_level": 1,
+                    "champion_points": 610,
+                    "last_time_played": "13.04.2020 16:52:39",
+                    "points_until_new_level": 1190,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Ezreal": {
+                    "champion_level": 1,
+                    "champion_points": 567,
+                    "last_time_played": "17.07.2020 21:22:18",
+                    "points_until_new_level": 1233,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Zed": {
+                    "champion_level": 1,
+                    "champion_points": 347,
+                    "last_time_played": "26.04.2018 23:01:06",
+                    "points_until_new_level": 1453,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Lissandra": {
+                    "champion_level": 1,
+                    "champion_points": 270,
+                    "last_time_played": "11.08.2017 13:04:57",
+                    "points_until_new_level": 1530,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "LeeSin": {
+                    "champion_level": 1,
+                    "champion_points": 267,
+                    "last_time_played": "26.04.2018 17:40:34",
+                    "points_until_new_level": 1533,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Cassiopeia": {
+                    "champion_level": 1,
+                    "champion_points": 242,
+                    "last_time_played": "27.09.2015 22:31:15",
+                    "points_until_new_level": 1558,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Trundle": {
+                    "champion_level": 1,
+                    "champion_points": 222,
+                    "last_time_played": "08.12.2019 19:46:40",
+                    "points_until_new_level": 1578,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Sion": {
+                    "champion_level": 1,
+                    "champion_points": 220,
+                    "last_time_played": "18.05.2020 13:01:01",
+                    "points_until_new_level": 1580,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Taliyah": {
+                    "champion_level": 1,
+                    "champion_points": 186,
+                    "last_time_played": "05.01.2017 03:02:09",
+                    "points_until_new_level": 1614,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Kindred": {
+                    "champion_level": 1,
+                    "champion_points": 153,
+                    "last_time_played": "16.01.2018 19:18:15",
+                    "points_until_new_level": 1647,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Kassadin": {
+                    "champion_level": 1,
+                    "champion_points": 147,
+                    "last_time_played": "22.12.2018 13:33:05",
+                    "points_until_new_level": 1653,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                },
+                "Amumu": {
+                    "champion_level": 1,
+                    "champion_points": 108,
+                    "last_time_played": "03.05.2017 21:22:11",
+                    "points_until_new_level": 1692,
+                    "chest_granted": false,
+                    "tokens_earned": 0
+                }
+            }
+        },
+        {
+            "request_type": "get_player_matches_tab",
+            "input_data": {
+                "region": "ru",
+                "player_name": "desarter",
+                "begin_time": "01.09.2020 00:00:00",
+                "end_time": "02.09.2020 00:00:00"
+            },
+            "request_time": "02.12.2020 17:41:48",
+            "data": {
+                "match_0": {
+                    "champion": "Ornn",
+                    "season": 13,
+                    "date": "01.09.2020 18:02:41",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_1": {
+                    "champion": "Urgot",
+                    "season": 13,
+                    "date": "01.09.2020 17:15:39",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_2": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "01.09.2020 16:41:37",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_3": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "01.09.2020 12:52:22",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_4": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "01.09.2020 12:18:30",
+                    "role": "DUO",
+                    "lane": "MID"
+                },
+                "match_5": {
+                    "champion": "Urgot",
+                    "season": 13,
+                    "date": "01.09.2020 11:34:22",
+                    "role": "NONE",
+                    "lane": "JUNGLE"
+                },
+                "match_6": {
+                    "champion": "Urgot",
+                    "season": 13,
+                    "date": "01.09.2020 10:52:21",
+                    "role": "NONE",
+                    "lane": "JUNGLE"
+                },
+                "match_7": {
+                    "champion": "Urgot",
+                    "season": 13,
+                    "date": "01.09.2020 10:25:25",
+                    "role": "NONE",
+                    "lane": "JUNGLE"
+                },
+                "match_8": {
+                    "champion": "Urgot",
+                    "season": 13,
+                    "date": "01.09.2020 09:49:55",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                }
+            }
+        }
+    ]
+}

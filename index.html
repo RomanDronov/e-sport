@@ -1,0 +1,320 @@
+<style>
+  body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  .app {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+  }
+  .profile-badge {
+    display: flex;
+    border: 1px solid black;
+    min-width: 400px;
+    min-height: 200px;
+    background-color: rgba(134, 138, 139, 0.5);
+    box-sizing: border-box;
+    flex-grow: 5;
+  }
+  .leaderboard {
+    flex-grow: 1;
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 1%;
+  }
+  .league-solo {
+    flex-grow: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  .player-info {
+    flex-grow: 2;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  .player-info .icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    width: 130px;
+    height: 130px;
+    background-size: 90%;
+    background-position: center;
+  }
+  .player-info .player-icon {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  .player-info .player-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .player-info .player-row {
+    display: flex;
+    align-items: center;
+  }
+  .player-info .player-level {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .player-info .player-region {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .league-solo .title {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .league-solo .component-name {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 1%;
+  }
+  .league-solo .data {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 1%;
+  }
+  .league-solo .tier,
+  .league-solo .points {
+    display: flex;
+    flex-direction: row;
+  }
+  .league-solo .results {
+    display: flex;
+    flex-direction: row;
+  }
+  .league-solo .results .wins {
+    font-size: 1.2em;
+    margin: 1%;
+  }
+  .leaderboard .leader {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    color: #5f5d5d;
+    padding: 3%;
+    background-color: #c4c4c4;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+  }
+  .leaderboard .leader .place {
+    flex-grow: 1;
+    font-size: 1.2em;
+  }
+  .leaderboard .leader .result {
+    flex-grow: 1;
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  .leaderboard .leader .info-block {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+  }
+  .leaderboard .leader .info-block .name {
+    color: #5f5d5d;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 1%;
+  }
+  .leaderboard .leader .level,
+  .leaderboard .leader .last,
+  .leaderboard .leader .total {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 1%;
+  }
+  .leaderboard .title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 1%;
+  }
+  .match-calendar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .match-calendar .title {
+    font-size: 2em;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    padding: 1%;
+    box-sizing: border-box;
+  }
+  .match-calendar .date {
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    padding: 1%;
+    box-sizing: border-box;
+  }
+  .match-calendar .event {
+    border:1px solid #333333;
+    display:flex;
+    flex-direction: column;
+    min-height: 100px;
+    min-width: 100px;
+    width:250px;
+    height: 250px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  .match-calendar .event .time{
+    text-align: center;
+    font-weight: 700;
+    color:white;
+    font-size: 1.3em;
+    margin-bottom: 2%;
+    background-color:#4DB6AC;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding:10px;
+    box-sizing: border-box;
+
+  }
+  .match-calendar .event .pic{
+    min-width: 50px;
+    min-height: 50px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    background-size: 10%;
+    background-position: center;
+    box-sizing: border-box;
+  }
+  .match-calendar .event .name{
+    font-size: 1.1em;
+    font-weight: 600;
+    color:rgb(170, 169, 169);
+    margin-bottom: 2%;
+    box-sizing: border-box;
+  }
+  .match-calendar .event-view{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:20px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+<body>
+  <div class="app">
+    <!---  <div class="profile-badge">
+      <div class="league-solo">
+        <div class="title">Solo</div>
+        <div class="tier">
+          <div class="component-name">Tier</div>
+          <div class="data">3</div>
+        </div>
+        <div class="points">
+          <div class="component-name">Points</div>
+          <div class="data">3</div>
+        </div>
+        <div class="results">
+          <div class="wins">🏆 3</div>
+          <div class="wins">❌ 3</div>
+        </div>
+      </div>
+      <div class="player-info">
+        <div class="player-row">
+          <div class="player-region">Russia</div>
+          <div class="player-icon">
+            <div class="icon" style="background-image: url(img/icon.png)"></div>
+          </div>
+          <div class="player-level">Level 1</div>
+        </div>
+        <div class="player-name">Scarlet Johansons</div>
+      </div>
+      <div class="league-solo">
+        <div class="title">Team</div>
+        <div class="tier">
+          <div class="component-name">Tier</div>
+          <div class="data">3</div>
+        </div>
+        <div class="points">
+          <div class="component-name">Points</div>
+          <div class="data">3</div>
+        </div>
+        <div class="results">
+          <div class="wins">🏆 3</div>
+          <div class="wins">❌ 3</div>
+        </div>
+      </div>
+    </div>
+    <div class="leaderboard">
+        <div class="title">Leaderboard</div>
+      <div class="leader">
+        <div class="place">🥇</div>
+        <div class="info-block">
+          <div class="name">PREDATOR</div>
+          <div class="level">Level 3</div>
+          <div class="last">Last 21.05.20 at 17.00</div>
+          <div class="total">Total 78</div>
+        </div>
+        <div class="result">7</div>
+      </div>
+      <div class="leader" style="background-color: #EEEEEE;">
+        <div class="place">🥈</div>
+        <div class="info-block">
+          <div class="name">CHIN894</div>
+          <div class="level">Level 4</div>
+          <div class="last">Last 21.05.20 at 17.00</div>
+          <div class="total">Total 40</div>
+        </div>
+        <div class="result">7</div>
+      </div>
+    </div>-->
+    <div class="match-calendar">
+      <div class="title">Match</div>
+      <div class="date">25 April</div>
+      <div class="event-view">
+        <div class="event">
+          <div class="time">8:20 <sup>pm</sup></div>
+          <div
+            class="pic"
+            style="
+              background: url('http://ddragon.leagueoflegends.com/cdn/10.25.1/img/champion/Darius.png'); background-size: 90%; background-position: center;
+            "
+          ></div>
+          <div class="name">Some name</div>
+          <div class="name">Season 13</div>
+          <div class="name">Role none</div>
+          <div class="name">Lane Jungle</div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</body>

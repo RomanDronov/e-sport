@@ -1,0 +1,146 @@
+ .app{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+  }
+  .profile-badge {
+    display: flex;
+    min-width: 400px;
+    min-height: 200px;
+    background-color: rgba(134, 138, 139, 0.5);
+    box-sizing: border-box;
+    flex-grow:5;
+  }
+  .leaderboard{
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#EEEEEE;
+    border-radius: 10px;
+    padding: 1%;
+  }
+  .leaders{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+  }
+  .league-solo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .player-info {
+    flex-grow: 2;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  .player-info .icon {
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    width: 130px;
+    height: 130px;
+    background-size: 90%;
+    background-position: center;
+  }
+  .player-info .player-icon {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .player-info .player-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .player-info .player-row {
+    display: flex;
+    align-items: center;
+  }
+  .player-info .player-level {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .player-info .player-region {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    flex-grow: 1;
+    text-align: center;
+  }
+  .league-solo .title {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .league-solo .component-name {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 1%;
+  }
+  .league-solo .data {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 1%;
+  }
+  .league-solo .tier,
+  .league-solo .points {
+    display: flex;
+    flex-direction: row;
+  }
+  .league-solo .results {
+    display: flex;
+    flex-direction: row;
+  }
+  .league-solo .results .wins {
+    font-size: 1.2em;
+    margin: 1%;
+  }
+  .leaderboard .leader {
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    color:#5F5D5D;
+    padding: 3%;
+    background-color: #C4C4C4;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+  }
+  .leaderboard .leader .place{
+      flex-grow: 1;
+      font-size: 1.2em;
+  }
+  .leaderboard .leader .result{
+      flex-grow: 1;
+      font-size: 1.2em;
+      font-weight: 700;
+  }
+  .leaderboard .leader .info-block {
+    display: flex;
+    flex-direction: column;
+    flex-grow:4;
+  }
+  .leaderboard .leader .info-block .name{
+      color:#5F5D5D;
+      font-weight: 700;
+      font-size: 1.2em;
+      margin:1%;
+  }
+  .leaderboard .leader .level, .leaderboard .leader .last, .leaderboard .leader .total{
+      font-size:1em;
+      font-weight: 500;
+      margin:1%;
+  }
+  .leaderboard .title{
+    font-size:1.5em;
+    font-weight: 700;
+    margin-bottom: 1%;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');

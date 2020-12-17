@@ -1,0 +1,21 @@
+version: '2'
+services:
+  server:
+        build: ./server/
+        volumes: 
+            - ./server/:/usr/src/app/
+        ports: 
+            - 5000:5000
+        environment: 
+            PORT: 5000
+            FLASK_DEBUG: 1
+  client:
+    build: ./client
+    command: npm start
+    volumes:
+      - ./client/src:/client/src
+      - ./client/public:/client/public
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"

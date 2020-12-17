@@ -1,0 +1,207 @@
+{
+    "requests": [
+        {
+            "request_type": "player_general_info_tab",
+            "input_data": {
+                "region": "ru",
+                "player_name": "desarter"
+            },
+            "request_time": "17.12.2020 17:08:26",
+            "data": {
+                "info": {
+                    "player_name": "desarter",
+                    "player_region": "ru",
+                    "player_pic": "http://ddragon.leagueoflegends.com/cdn/10.25.1/img/profileicon/4075.png",
+                    "player_level": 280
+                },
+                "solo_league": {
+                    "tier": "GOLD",
+                    "rank": "II",
+                    "league_points": 75,
+                    "wins": 98,
+                    "losses": 90
+                },
+                "team_league": {
+                    "tier": "SILVER",
+                    "rank": "II",
+                    "league_points": 70,
+                    "wins": 39,
+                    "losses": 25
+                }
+            }
+        },
+        {
+            "request_type": "player_matches_tab",
+            "input_data": {
+                "region": "ru",
+                "player_name": "desarter",
+                "begin_time": "01.12.2020 00:00:00",
+                "end_time": "07.12.2020 00:00:00"
+            },
+            "request_time": "17.12.2020 17:08:47",
+            "data": {
+                "match_0": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "06.12.2020 18:59:09",
+                    "role": "DUO",
+                    "lane": "MID"
+                },
+                "match_1": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "06.12.2020 18:28:25",
+                    "role": "DUO",
+                    "lane": "MID"
+                },
+                "match_2": {
+                    "champion": "Jhin",
+                    "season": 13,
+                    "date": "05.12.2020 18:23:36",
+                    "role": "DUO_CARRY",
+                    "lane": "BOTTOM"
+                },
+                "match_3": {
+                    "champion": "Kled",
+                    "season": 13,
+                    "date": "05.12.2020 17:13:16",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_4": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "05.12.2020 16:18:36",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_5": {
+                    "champion": "Kled",
+                    "season": 13,
+                    "date": "05.12.2020 15:17:48",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_6": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "05.12.2020 13:12:50",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_7": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "05.12.2020 12:31:06",
+                    "role": "DUO",
+                    "lane": "MID"
+                },
+                "match_8": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "05.12.2020 09:16:18",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_9": {
+                    "champion": "Sett",
+                    "season": 13,
+                    "date": "05.12.2020 08:23:06",
+                    "role": "NONE",
+                    "lane": "JUNGLE"
+                },
+                "match_10": {
+                    "champion": "Renekton",
+                    "season": 13,
+                    "date": "04.12.2020 17:16:14",
+                    "role": "SOLO",
+                    "lane": "MID"
+                },
+                "match_11": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "04.12.2020 16:50:14",
+                    "role": "DUO_SUPPORT",
+                    "lane": "NONE"
+                },
+                "match_12": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "04.12.2020 15:53:42",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_13": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "04.12.2020 15:27:57",
+                    "role": "DUO_SUPPORT",
+                    "lane": "NONE"
+                },
+                "match_14": {
+                    "champion": "Renekton",
+                    "season": 13,
+                    "date": "03.12.2020 19:37:17",
+                    "role": "DUO_SUPPORT",
+                    "lane": "NONE"
+                },
+                "match_15": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "03.12.2020 09:46:38",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_16": {
+                    "champion": "Sett",
+                    "season": 13,
+                    "date": "03.12.2020 08:56:25",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_17": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "02.12.2020 14:55:38",
+                    "role": "DUO",
+                    "lane": "TOP"
+                },
+                "match_18": {
+                    "champion": "Tryndamere",
+                    "season": 13,
+                    "date": "02.12.2020 14:12:27",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_19": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "02.12.2020 13:29:00",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_20": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "02.12.2020 09:41:06",
+                    "role": "SOLO",
+                    "lane": "TOP"
+                },
+                "match_21": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "01.12.2020 10:58:32",
+                    "role": "DUO",
+                    "lane": "MID"
+                },
+                "match_22": {
+                    "champion": "Darius",
+                    "season": 13,
+                    "date": "01.12.2020 10:19:36",
+                    "role": "NONE",
+                    "lane": "JUNGLE"
+                }
+            }
+        }
+    ]
+}
